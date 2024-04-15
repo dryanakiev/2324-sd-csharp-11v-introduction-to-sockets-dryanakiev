@@ -1,0 +1,15 @@
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Client\bin\Debug\net8.0\ChatRoom.Client.exe
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Client\bin\Debug\net8.0\ChatRoom.Client.deps.json
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Client\bin\Debug\net8.0\ChatRoom.Client.runtimeconfig.json
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Client\bin\Debug\net8.0\ChatRoom.Client.dll
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Client\bin\Debug\net8.0\ChatRoom.Client.pdb
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Client\obj\Debug\net8.0\ChatRoom.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Client\obj\Debug\net8.0\ChatRoom.Client.AssemblyInfoInputs.cache
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Client\obj\Debug\net8.0\ChatRoom.Client.AssemblyInfo.cs
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Client\obj\Debug\net8.0\ChatRoom.Client.csproj.CoreCompileInputs.cache
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Client\obj\Debug\net8.0\ChatRoom.Client.sourcelink.json
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Client\obj\Debug\net8.0\ChatRoom.Client.dll
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Client\obj\Debug\net8.0\refint\ChatRoom.Client.dll
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Client\obj\Debug\net8.0\ChatRoom.Client.pdb
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Client\obj\Debug\net8.0\ChatRoom.Client.genruntimeconfig.cache
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Client\obj\Debug\net8.0\ref\ChatRoom.Client.dll

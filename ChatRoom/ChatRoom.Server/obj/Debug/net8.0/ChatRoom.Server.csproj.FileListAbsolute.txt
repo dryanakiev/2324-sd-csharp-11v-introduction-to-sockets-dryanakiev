@@ -1,0 +1,5 @@
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Server\obj\Debug\net8.0\ChatRoom.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Server\obj\Debug\net8.0\ChatRoom.Server.AssemblyInfoInputs.cache
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Server\obj\Debug\net8.0\ChatRoom.Server.AssemblyInfo.cs
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Server\obj\Debug\net8.0\ChatRoom.Server.csproj.CoreCompileInputs.cache
+C:\Users\dyanakiev\RiderProjects\2324-sd-csharp-11v-introduction-to-sockets-dryanakiev\ChatRoom\ChatRoom.Server\obj\Debug\net8.0\ChatRoom.Server.sourcelink.json

@@ -1,5 +1,6 @@
 using System.Net;
 using System.Net.Sockets;
+using System.Text;
 
 namespace ChatRoom.Client;
 
@@ -7,7 +8,7 @@ public class Client
 {
     public string Name { get; set; } = null!;
 
-    public IPAddress ClientIpAddress { get; set; }
+    public IPAddress ServerIpAddress { get; set; }
 
     public int Port { get; set; }
 
@@ -19,11 +20,11 @@ public class Client
         {
             IPHostEntry hosts = Dns.GetHostEntry(Dns.GetHostName());
             
-            ClientIpAddress = hosts.AddressList[0];
+            ServerIpAddress = hosts.AddressList[0];
             
-            IPEndPoint localEndPoint = new IPEndPoint(ClientIpAddress, Port);
+            IPEndPoint localEndPoint = new IPEndPoint(ServerIpAddress, Port);
 
-            _clientSocket = new Socket(ClientIpAddress.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
+            _clientSocket = new Socket(ServerIpAddress.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
 
             _clientSocket.Connect(localEndPoint);
 
@@ -33,6 +34,7 @@ public class Client
             }
             else
             {
+                Console.WriteLine("Connection failed, retrying...");
                 StartConnection();
             }
         }
@@ -44,19 +46,43 @@ public class Client
     
     public void StopConnection()
     {
-        // TODO: Add StopConnection method
+        _clientSocket.Close();
     }
 
-    public void SendMessage()
+    public string SendMessage(string message)
     {
-        // TODO: Add SendMessage method
+        byte[] byteMessage = Encoding.ASCII.GetBytes(message);
+        _clientSocket.Send(byteMessage);
+
+        return ReceiveMessage();
     }
 
-    public void ReceiveMessage()
+    public string ReceiveMessage()
     {
-        // TODO: Add ReceiveMessage method
-        // TODO: Check method signature for correct return type
+        byte[] messageBuffer = new byte[1024];
+
+        int byteCount = _clientSocket.Receive(messageBuffer);
+
+        return Encoding.ASCII.GetString(messageBuffer, 0, byteCount);
+    }
+
+    public static void Main(string[] args)
+    {
+        Client client = new Client()
+        {
+            Name = "Something",
+            Port = 6666,
+        };
         
-        // TODO: This is a test todo
+        client.StartConnection();
+
+        string message;
+
+        while (true)
+        {
+            message = Console.ReadLine();
+
+            Console.WriteLine(client.SendMessage(message));
+        }
     }
 }
